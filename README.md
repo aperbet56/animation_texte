@@ -14,3 +14,4 @@ Lien vers le projet : https://aperbet56.github.io/animation_texte/
 - CSS
 - Flexbox
 - Animation CSS
+- Importation de la police Raleway
