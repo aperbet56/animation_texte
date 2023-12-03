@@ -16,15 +16,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #2f354c;
+    background-color: #111111;
     font-family: "Raleway", sans-serif;
 }
 
 .animated__text {
     position: relative;
-    font-size: 14vw;
+    font-size: 6em;
     color: #2f354c;
-    -webkit-text-stroke: 0.3vw #383d52;
+    white-space: nowrap;
     text-transform: uppercase;
 }
 
@@ -37,8 +37,9 @@ body {
     height: 100%;
     color: #ffd700;
     -webkit-text-stroke: 0vw #383d52;
-    border-right: 2px solid #ffd700;
+    border-right: 4px solid #ffd700;
     overflow: hidden;
+    filter: drop-shadow(0 0 20px #ffd700);
     animation: animate 6s linear infinite;
 }
 
